@@ -46,7 +46,7 @@ $.extend({
 				console.warn(jqXHR);
 				console.warn(errorMsg);
 			} else {
-				window.alert(errorMsg);
+				// window.alert(errorMsg);
 			}
 			// 确保接下去依然进入 fail 分支
 			return $.Deferred().reject();	// 同 return Promise.reject();
